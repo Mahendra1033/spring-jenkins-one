@@ -14,8 +14,7 @@ class SpringJenkinsOneApplicationTests {
 
 	@Test
 	void contextLoads() {
-		logger.info("Test Case ContextLoads() is started executing ");
-		logger.info("Second Test Case is also started executing ");
+		logger.info("Example For Pipeline Testing !!!");
 		assertEquals(true,true);
 	}
 

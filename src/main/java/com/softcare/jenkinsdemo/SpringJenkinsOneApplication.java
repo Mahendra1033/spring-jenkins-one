@@ -14,8 +14,7 @@ public class SpringJenkinsOneApplication {
 
 	@PostConstruct
 	public void init(){
-		logger.info("This is init method inside the main class");
-		logger.info("Checking whether it is working fine or not for scm");
+		logger.info("Example For Pipeline");
 	}
 	public static void main(String[] args) {
 		logger.info("This is Main method inside the main class");
